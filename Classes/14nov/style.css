@@ -3,15 +3,15 @@
 #eg1{
     /* 1. Color Property */
     /* color: white;
-    text-shadow: 0px 0px 10px red; */
+    text-shadow: 0px 0px 10px red; (left,vertical,blur-radius,color)*/ 
     /* named Color */
     /* RGB: red green blue */
     /* hexcode: #rrggbb */
     /* RGBA: Red green blue alpha */
     /* hsl: hue saturation lightness */
     /* Text Align */
-    /* text-align: left/ right/ center; */
-    /* Justify */
+    /* text-align: left/ right/ center/justify; */
+    /* Justify -> is used to remove space from both sides left and right and make the content fit perfectly */ 
     /* Font Family */
     /* font-family:Arial, Helvetica, sans-serif; */
     font-family: 'Inter', sans-serif;
