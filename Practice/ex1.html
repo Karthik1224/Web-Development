@@ -1,76 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {
-            background-color: rgb(204, 204, 204)
-        }
+           #box1,#box2{
 
-        .container {
-            
-            list-style-type: none;
-            background-color: rgb(255, 255, 255);
-            border: 2px solid balck;
-            margin: 80px;
-            height: 100%;
-            border-radius: 4px;
-
-        }
-
-        .player_one {
-
-            text-align: center;
-            border-radius: 1px solid balck;
-            padding: 10px;
-        }
-
-        .player_two {
-            text-align: center;
-            border-radius: 1px solid balck;
-            padding: 10px;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 10px;
-            border: 2px solid black;
-            border-radius: 4px;
-            background-color: white;
-        }
+                height: 300px;
+                width: 300px;
+                border: 1px solid red;
+                
+           }
+           #box1{
+               background-color: rgb(117, 184, 162);
+               position: relative;
+               top: 80px; 
+               /* margin-top: 80px; */
+           }
+           #box2{
+            background-color: rgb(82, 82, 132);
+               position: relative;
+               left: 30px;
+           }
     </style>
 </head>
-
 <body>
+     
+        <div id="box1">
+            Box1
+        </div>
 
-    <h1 style="text-align: center;">My Playlist</h1>
-    <ul>
-        <a href="#" target="_blank" style="text-decoration-line: none;"><li style="list-style-type: none;">Song 1</li></a>
-        <a href="#" target="_blank" style="text-decoration-line: none;"><li style="list-style-type: none;">Song 2</li></a>
-        <a href="#" target="_blank" style="text-decoration-line: none;"><li style="list-style-type: none;">Song 3</li></a>
-        <a href="#" target="_blank" style="text-decoration-line: none;"><li style="list-style-type: none;">Song 4</li></a>
-        <a href="#" target="_blank" style="text-decoration-line: none;"><li style="list-style-type: none;">Song 5</li></a>
-       
-    </ul>
-    <a href="#" target="_blank" style="text-decoration-line: none;"></a>
-    <h2 style="text-align: center;">Now Playing...</h2>
-    <div class="container">
-        <div class="player_one">
-            <video controls>
-                <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
-            </video>
+        <div id="box2">
+            Box2
         </div>
-        <h2 style="text-align: center;">MP3 songs</h2>
-        <div class="player_two">
-            <p>Maan Meri Jaan</p>
-            <audio controls>
-                <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/ogg">
-            </audio>
-        </div>
-    </div>
+
 </body>
-
 </html>
